@@ -1,0 +1,158 @@
+
+.pic-bj{
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+.pic-bj image{
+	width: 100%;
+}
+.body{
+	width: 90%;
+	margin: 0 auto;
+}
+/* 返回  注册 */
+.head{
+	width: 100%;
+	/* background: #4CD964; */
+	height: 80rpx;
+	padding-top: 70rpx;
+	line-height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.back{
+	width: 60rpx;
+	height: 40rpx;
+}
+.pic-back{
+	width: 60rpx;
+	height: 40rpx;
+	margin: 25rpx 0;
+}
+.head-dl{
+	font-size: 36rpx;
+	color: #ea8607;
+}
+/* 欢迎登录 */
+.hydl{
+	font-size: 55rpx;
+	line-height: 100rpx;
+}
+/* 登录方式 */
+.login{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	/* background: #007AFF; */
+	font-size: 30rpx;
+	color: #3F536E;
+	height: 150rpx;
+	line-height: 150rpx;
+}
+.login-yzm{
+	width: 200rpx;
+}
+.login-zh{
+	width: 200rpx;
+}
+.login view.active{
+	font-size: 36rpx;
+	color: #FF951B;
+}
+/* 验证码登录 */
+.sjh{
+	width: 100%;
+}
+.sjh-zh{
+	margin-bottom: 50rpx;
+}
+.sjh-zh-mm{
+	font-size: 36rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.sjh-input{
+	border: 1px solid #f0f0f0;
+	border-radius: 15rpx;
+	background: #FFFFFF;
+	/* height: 80upx; */
+}
+.sjh-input input{
+	height: 100rpx;
+	line-height: 100rpx;
+	padding: 0 30rpx;
+}
+.placeholder{
+	color:#95a0b6;
+	background:#ffffff;
+}
+.send{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+}
+.code{
+	width: 60%;
+}
+.sendtext{
+	font-size:30rpx;
+	color: #FFFFFF;
+	background: #FF991E;
+	height: 50rpx;
+	line-height: 50rpx;
+	border-radius: 50rpx;
+	margin: 25rpx 15rpx;
+	padding:0 15rpx;
+}
+/* 账号登录 */
+.zh{
+	width: 100%;
+	/* background: #007AFF; */
+}
+.zh-zh{
+	margin-bottom: 50rpx;
+}
+.zh-zh-mm{
+	font-size: 36rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.zh-input{
+	border: 1px solid #F0F0F0;
+	border-radius: 15rpx;
+	background: #FFFFFF;
+}
+.zh-input input{
+	height: 100rpx;
+	line-height: 100rpx;
+	padding: 0 30rpx;
+}
+.zh-wjmm{
+	width: 100%;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: right;
+	color: #999999;
+}
+.btn{
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 36rpx;
+	text-align: center;
+	font-weight: 600;
+	background: #ff951b;
+	background: -webkit-gradient(linear,left top, right top,from(#ffbc05), to(#ff951b));
+	background: -webkit-linear-gradient(left,#ffbc05, #ff951b);
+	background: linear-gradient(to right,#ffbc05, #ff951b);
+	margin: 80rpx 0;
+	border-radius: 50rpx;
+}
+

@@ -1,0 +1,93 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/login/dengzhu",//登录注册引导页
+			"style" : {}
+		},
+		{
+			"path" : "pages/login/register",//注册页
+			"style" : {}
+		},
+		{
+			"path" : "pages/login/login",//登录页
+			"style" : {}
+		},
+		{
+			"path" : "pages/tabBar/Home/Home",//主页
+			"style" : {
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/list/wjmm",//忘记密码
+			"style" : {}
+		},
+		{
+			"path" : "pages/tabBar/My/My",//我的
+			"style" : {}
+		}
+	    ,{
+            "path" : "pages/tabBar/Contract/Contract",//合约
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabBar/Assets/Assets",//资产
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabBar/Copy/Copy",//跟单
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	},
+	"tabBar":{
+		"color": "#d4dbe2",
+		"selectedColor": "#f49e41",
+		"backgroundColor": "#F8F8F8",
+		"list":[{
+			"pagePath": "pages/tabBar/Home/Home",
+			"text": "首页",
+			"iconPath": "",
+			"selectedIconPath": ""
+		},
+		{
+			"pagePath": "pages/tabBar/Contract/Contract",
+			"text": "合约",
+			"iconPath": "",
+			"selectedIconPath": ""
+		},
+		{
+			"pagePath": "pages/tabBar/Copy/Copy",
+			"text": "跟单",
+			"iconPath": "",
+			"selectedIconPath": ""
+		},
+		{
+			"pagePath": "pages/tabBar/Assets/Assets",
+			"text": "资产",
+			"iconPath": "",
+			"selectedIconPath": ""
+		},
+		{
+			"pagePath": "pages/tabBar/My/My",
+			"text": "我的",
+			"iconPath": "",
+			"selectedIconPath": ""
+		}
+		]
+	},
+	"condition": {
+		"current": 0,
+		"list": [{
+			"name": "test",
+			"path": "pages/login/dengzhu",
+			"query": "interval=4000&autoplay=false"
+		}]
+	}
+}

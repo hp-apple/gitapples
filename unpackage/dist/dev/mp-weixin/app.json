@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/login/dengzhu",
+    "pages/login/register",
+    "pages/login/login",
+    "pages/tabBar/Home/Home",
+    "pages/list/wjmm",
+    "pages/tabBar/My/My",
+    "pages/tabBar/Contract/Contract",
+    "pages/tabBar/Assets/Assets",
+    "pages/tabBar/Copy/Copy"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#d4dbe2",
+    "selectedColor": "#f49e41",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/Home/Home",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/tabBar/Contract/Contract",
+        "text": "合约",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/tabBar/Copy/Copy",
+        "text": "跟单",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/tabBar/Assets/Assets",
+        "text": "资产",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/tabBar/My/My",
+        "text": "我的",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap64.json"
+}

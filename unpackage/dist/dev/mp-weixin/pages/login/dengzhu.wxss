@@ -1,0 +1,43 @@
+
+page{
+	/* display: flex; */
+}
+.pic-dz{
+	width: 100%;
+	height:100vh;
+	/* background: #007AFF; */
+}
+.pic-dz image{
+	width: 100%;
+	height: 100%;
+}
+.dz{
+	width: 94%;
+	position: absolute;
+	top:80%;
+	margin: 0 25rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	text-align: center;
+}
+.dz-deng{
+	/* font-size: 40upx; */
+	font-weight: 600;
+	width: 40%;
+	height: 80rpx;
+	line-height: 80rpx;
+	border: 1px solid #000000;
+}
+.dz-zhu{
+	width: 40%;
+	font-weight: 600;
+	color: #FFFFFF;
+	height: 80rpx;
+	line-height: 80rpx;
+	border: 1px solid #ff991e;
+	background: #FF991E;
+}
+

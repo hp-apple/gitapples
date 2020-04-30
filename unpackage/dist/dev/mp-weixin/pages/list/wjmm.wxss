@@ -1,0 +1,165 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 背景图 */
+.pic-bj{
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+.pic-bj image{
+	width: 100%;
+}
+.body{
+	width: 90%;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+	/* background: #4CD964; */
+	height: 80rpx;
+	padding-top: 70rpx;
+	line-height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.back{
+	width: 60rpx;
+	height: 40rpx;
+}
+.pic-back{
+	width: 60rpx;
+	height: 40rpx;
+	margin: 25rpx 0;
+}
+/* 忘记密码 */
+.wjmm{
+	font-size: 55rpx;
+	line-height: 100rpx;
+}
+.wjmm-input{
+}
+.wjmm-input-box{
+	width: 100%;
+	border: 1px solid #F0F0F0;
+	margin: 20rpx auto;
+	border-radius: 15rpx;
+	background: #FFFFFF;
+}
+.wjmm-input input{
+	height: 100rpx;
+	line-height: 100rpx;
+	padding: 0 30rpx;
+}
+/* 发送验证码 */
+.send{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+}
+.code{
+	width: 60%;
+}
+.sendtext{
+	font-size:30rpx;
+	color: #FFFFFF;
+	background: #FF991E;
+	height: 50rpx;
+	line-height: 50rpx;
+	border-radius: 50rpx;
+	margin: 25rpx 15rpx;
+	padding:0 15rpx;
+}
+.btn{
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 36rpx;
+	text-align: center;
+	font-weight: 600;
+	background: #ff951b;
+	background: -webkit-gradient(linear,left top, right top,from(#ffbc05), to(#ff951b));
+	background: -webkit-linear-gradient(left,#ffbc05, #ff951b);
+	background: linear-gradient(to right,#ffbc05, #ff951b);
+	margin: 80rpx 0;
+	border-radius: 50rpx;
+}
+

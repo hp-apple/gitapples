@@ -1,0 +1,1 @@
+<view><view class="pic-dz"><image src="../../static/imgs/szjypt.png"></image></view><view class="dz"><view data-event-opts="{{[['tap',[['login',['$event']]]]]}}" class="dz-deng" bindtap="__e">登录</view><view data-event-opts="{{[['tap',[['register',['$event']]]]]}}" class="dz-zhu" bindtap="__e">注册</view></view></view>

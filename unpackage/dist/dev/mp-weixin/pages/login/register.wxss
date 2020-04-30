@@ -1,0 +1,321 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 注册背景图 */
+.pic-bj{
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+.pic-bj image{
+	width: 100%;
+}
+.body{
+	width: 90%;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+	/* background: #4CD964; */
+	height: 80rpx;
+	padding-top: 70rpx;
+	line-height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.back{
+	width: 60rpx;
+	height: 40rpx;
+}
+.pic-back{
+	width: 60rpx;
+	height: 40rpx;
+	margin: 25rpx 0;
+}
+.head-dl{
+	font-size: 36rpx;
+	color: #ea8607;
+}
+/* 注册 */
+.zhuce{
+	font-size: 55rpx;
+	line-height: 100rpx;
+}
+.zc-input{
+}
+.zc-input-box{
+	width: 100%;
+	border: 1px solid #f0f0f0;
+	border-radius: 15rpx;
+	height: 100rpx;
+	margin: 20rpx auto;
+}
+.zc-input input{
+	height: 100rpx;
+	line-height: 100rpx;
+	border-radius: 15rpx;
+	padding: 0 30rpx;
+	background: #FFFFFF;
+}
+.placeholder{
+	color:#95a0b6;
+	background:#ffffff;
+}
+.tanc{
+	font-size: 28rpx;
+}
+/* 发送验证码 */
+.send{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+}
+.code{
+	width: 60%;
+}
+.sendtext{
+	font-size:30rpx;
+	color: #FFFFFF;
+	background: #FF991E;
+	height: 50rpx;
+	line-height: 50rpx;
+	border-radius: 50rpx;
+	margin: 25rpx 15rpx;
+	padding:0 15rpx;
+}
+.btn{
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 36rpx;
+	text-align: center;
+	font-weight: 600;
+	background: #ff951b;
+	background: -webkit-gradient(linear,left top, right top,from(#ffbc05), to(#ff951b));
+	background: -webkit-linear-gradient(left,#ffbc05, #ff951b);
+	background: linear-gradient(to right,#ffbc05, #ff951b);
+	margin: 80rpx 0;
+	border-radius: 50rpx;
+}
+/* 浮层 */
+.fuceng{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000;
+	opacity: 0.6;
+	z-index: 10001;
+}
+.fc{
+	width: 80%;
+	background: #FFFFFF;
+	position: fixed;
+	height: 500rpx;
+	left:10%;
+	z-index:10002;
+	top: 25%;
+	border-radius:20rpx;
+}
+.fc-title{
+	width: 100%;
+	height: 120rpx;
+	line-height: 120rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.fc-title-con{
+	font-size: 36rpx;
+	text-align: center;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.fc-title-pic{
+	width: 80rpx;
+	height: 60rpx;
+}
+.fc-con{
+	width: 90%;
+	margin: 0 auto;
+}
+.fc-con-input{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 1px solid #000000;
+	height: 80rpx;
+	margin: 20rpx auto;
+	line-height: 80rpx;
+}
+.fc-con-input input{
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.pic-guanbi{
+	width: 40rpx;
+	height: 40rpx;
+}
+.pic-pwd{
+	width: 40rpx;
+	height: 50rpx;
+	margin: 15rpx;
+}
+.submit{
+	width: 90%;
+	margin: 50rpx auto;
+	font-size: 36rpx;
+	color: #FFFFFF;
+	border-radius: 50rpx;
+	background: #ff951b;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffbc05), to(#ff951b));
+	background: -webkit-linear-gradient(#ffbc05, #ff951b);
+	background: linear-gradient(#ffbc05, #ff951b);
+}
+

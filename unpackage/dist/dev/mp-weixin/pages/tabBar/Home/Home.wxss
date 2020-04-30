@@ -1,0 +1,217 @@
+
+.header{
+	width: 100%;
+	height: 500rpx;
+	background: #FF951B;
+}
+.head{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 80rpx;
+	padding-top: 50rpx;
+	position: fixed;
+	top: 0;
+}
+.head-tit{
+	text-align: center;
+	color: #FFFFFF;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	font-size: 36rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.head-right{
+	height: 80rpx;
+	line-height: 80rpx;
+	z-index: 100;
+	margin: 15rpx;
+}
+.pic-tz{
+	width: 40rpx;
+	height: 50rpx;
+}
+/* 导航 */
+.dh{
+	width: 94%;
+	margin: 0 auto;
+	/* background: #007AFF; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.dh-box{
+	width: 20%;
+	height: 150rpx;
+	text-align: center;
+	/* background-color: #4CD964; */
+}
+.dh-box image{
+	/* height: 90upx; */
+}
+.pic-dh{
+	width: 50rpx;
+	height: 50rpx;
+	margin: 0 auto;
+	display: block;
+	margin-top: 30rpx;
+}
+.dh-box text{
+	line-height: 80rpx;
+	/* text-align: center; */
+}
+/* 广告-公告 */
+.ad-gg{
+	width: 94%;
+	margin: 0 auto;
+	/* background: #999999; */
+}
+.ad-gg-ad{
+	width: 100%;
+	margin: 20rpx 0;
+}
+.pic-ad{
+	width: 100%;
+	height: 135rpx;
+}
+.ad-gg-gg{
+	width: 100%;
+	height: 70rpx;
+	font-size: 26rpx;
+	/* background-color: #00ff00; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.ad-gg-gg text{
+	line-height: 70rpx;
+	height: 70rpx;
+}
+.pic-gg{
+	width: 50rpx;
+	height: 35rpx;
+	margin: 17rpx auto;
+}
+.kongbai{
+	width: 100%;
+	height: 25rpx;
+	background: #f8f8f8;
+}
+/* 币价 */
+.bijia{
+	width: 100%;
+	/* background: #DD524D; */
+}
+.bijia-title{
+	width: 100%;
+	line-height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 34rpx;
+}
+.color{
+	width: 10rpx;
+	height: 35rpx;
+	margin: 25rpx 6rpx;
+	background: #F0AD4E;
+	border-radius: 25rpx;
+}
+.bijia-bj{
+	width: 94%;
+	margin: 10rpx auto 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.bijia-bj-box{
+	width: 33%;
+}
+.col-title{
+	color: #F0AD4E;
+	font-size: 28rpx;
+}
+.col-mid{
+	font-size: 34rpx;
+	font-weight: 600;
+}
+.col-per{
+	color: #007AFF;
+	font-size: 26rpx;
+}
+.bijia-bj-box text{
+	display: block;
+	text-align: center;
+}
+/* 涨跌幅 */
+.bd{
+	width: 94%;
+	margin: 0 auto;
+}
+.bd-title{
+	width: 100%;
+	height: 60rpx;
+	line-height: 60rpx;
+	margin-top: 20rpx;
+	/* background: #007AFF; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 5px solid #F0AD4E;
+}
+.bd-title view{
+	width: 150rpx;
+	text-align: center;
+	background: #4CD964;
+	border-radius: 30rpx 0 30rpx 0;
+	margin-right: 30rpx;
+	/* border-right: 37px solid transparent; */
+}
+.bd-title view.active{
+	width: 150rpx;
+	text-align: center;
+	background: #F0AD4E;
+	border-radius: 30rpx 0 0 0;
+}
+.bd-con{
+	width: 100%;
+	height: 100rpx;
+}
+.bd-con-box{
+	margin: 20rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.bd-con-box-l{
+	width: 35%;
+}
+.bd-con-box-m{
+	width: 40%;
+}
+.bd-con-box-r{
+	width: 25%;
+}
+.bd-con-box text{
+	display:block;
+	line-height: 40rpx;
+}
+.bd-btn-z{
+	background: #07c087;
+	color: #FFFFFF;
+	/* width: 80%; */
+	/* height: 40upx; */
+}
+.bd-btn-d{
+	background: #ff0000;
+	color: #FFFFFF;
+}
+
